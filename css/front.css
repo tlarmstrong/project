@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#slideShowHome{
+	margin-top:20px;
+	height:280px;
+	}
+#outterWrapperUserType{
+	margin:10px 30px 10px 30px;
+	}
+
+#userTypeTitle h1{
+	color:#73a533;
+	font-size:17.5px;
+	font-family:'Trade Gothic W01 Bold';
+	margin-left:32px;
+
+	}
+#innerWrapperUserType{
+	height:240px;
+	margin-top:20px;
+	}
+#innerWrapperUserType2{
+	height:240px;
+	margin:20px auto;
+	width: 860px;
+	}
+#wrapperUserAndAffil{
+	width:535px;
+	height:240px;
+	float:left;
+	margin-left: 0px;
+	}
+#wrapperUserAndAffil2{
+	width:535px;
+	height:240px;
+	float:left;
+	margin:25px 0 0;
+	}
+#wrapperUserTypes
+{
+	}
+.userFeatured{
+	width:150px;
+	height:165px;
+	float:left;
+	margin:10px;
+	position:relative;
+	border-right:#CCC 1px dotted;
+	padding-right:17px;	
+	text-decoration:none;
+	}
+.userfeatured a:link{
+	text-decoration:none;
+	}
+.userFeaturedCarrier{
+	width:150px;
+	height:165px;
+	float:left;
+	margin:10px;
+	position:relative;
+	padding-right:15px;
+	}
+#userShipperTitle{
+	color:#73a533;
+	font-size:35px;
+	font-family:'Eurostile W01 Bold';
+	}
+#userBrokerTitle{
+	color:#faa61a;
+	font-size:35px;
+	font-family:'Eurostile W01 Bold';
+	}
+#userCarrierTitle{
+	color:#006595;
+	font-size:35px;
+	font-family:'Eurostile W01 Bold';
+	}
+.userFeaturedCopy{
+	width:160px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	padding-top:10px;
+	}
+.userMoreInfoButton{
+	width:55px;
+	height:19px;
+	bottom:0;
+	position:absolute;
+	}
+#allAffilLogos{
+	margin:10px;
+	width:520px;
+	height:50px;
+	text-align:center;
+	}
+#allAffilLogos img{
+	float:left;
+	margin:5px 18px 0 1px;
+	width:45px;
+	height:auto;
+	}
+#wrapperLoginReg{
+	width:280px;
+	height:240px;
+	float:right;
+	background-image:url('../images/loginBackground.png');
+	background-repeat:none;
+	}
+#wrapperLoginReg2{
+	width:280px;
+	height:240px;
+	float:right;
+	background-image:url('../images/loginBackground.png');
+	background-repeat:no-repeat;	
+}
+#userRegister2{
+	margin-left:50px;
+	}
+#userRegister2 p{
+	font-family:arial;
+	}
+#userLogin{
+	margin:20px 0 10px 20px;
+	}
+#loginForm input{
+	color:#999;
+	margin:0;
+	padding:0;
+	}
+#formInput{
+	float:left;
+	width:150px;
+	}
+#ContentPlaceHolderDefault_HomeLogin_1_LoginForm_imgSubmitButton{
+	margin-left:-10px;
+	}
+#customerLogin{
+	color:#faa61a;
+	font-size:13pt;
+	font-family:'Trade Gothic W01 Bold';
+	}
+#emailPasswordBlock button{
+	float:left;
+	margin-left:0px;
+	}
+#hrLogin{
+	width:240px;
+	margin-right:20px;
+	color:#CCC;
+	}
+#accountAccess{
+	margin-top:8px;
+	}
+#accountAccess a{
+	color:#73a533;
+	font-size:9pt;
+	}
+#userRegister{
+	margin:20px 0 0 20px
+	}
+#notCustomer{
+width:170px;
+float:left;
+	}
+#notCustomer2{
+	margin:40px 0 0 -5px;
+	
+	}
+#notCustomerTitle{
+	color:#73a533;
+	font-size:13pt;
+	font-family:'Trade Gothic W01 Bold';
+	}
+#notCustomer p{
+	margin:0px;
+	padding:15px 0 0 0;
+	font-size:10pt;
+	color:#999;
+	font-family:arial;
+	}
+#notCustomer2 p{
+	margin:0px;
+	padding:5px 0 0 0;
+	font-size:10pt;
+	color:#999;
+	}
+#registerNow p{
+	width:150px;
+	font-size:10pt;
+	float:left;
+	color:#999;
+	}
+#signUpButton{
+	float:right;
+	margin:-30px 10px 0 0;
+	}
+#signUpButton2{
+	margin:20px 0 0 50px;
+	}
+
+span.error 
+{
+    font-weight: bold;
+    color: #f00;
+    font-size: 14px;
+    font-family: Arial;
+}
+#ContentPlaceHolderDefault_HomeLogin_1_LoginForm_UserName{
+	-moz-border-radius:5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+	-khtml-border-radius: 5px; /* KHTML */
+	border-radius: 5px; /* CSS3 */
+	behavior:url("border-radius.htc");
+	margin-bottom:5px;
+	width:140px;
+	}
+#ContentPlaceHolderDefault_HomeLogin_1_LoginForm_Password{
+	-moz-border-radius:5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari, Chrome */
+	-khtml-border-radius: 5px; /* KHTML */
+	border-radius: 5px; /* CSS3 */
+	behavior:url("border-radius.htc");
+	width:140px;
+	}
+
+    div#wrapperUserAndAffil
+    {
+        width: 600px;
+        height: 240px;
+        background-color: #eee;
+        border-radius: 5px;
+        float:left;
+        /*background-image: url('../images/VideobackGround.png');*/
+    }
+    
+    table.InfoTable
+    {
+        width: 500px;
+        margin: 20px auto;
+    }
+    
+    td.InfoTableText
+    {
+        padding-left: 12px;
+        padding-top: 28px;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Arial;
+        color: #6D6E71;
+    }
+
+    #wrapperUserTypes
+    {
+    	margin-left: 20px;
+    	margin-top: 10px;
+        width:100%;
+	}
+
+    .userFeatured 
+    {
+        width: 300px;
+        border-right: none;
+        border-left:#CCC 1px dotted;
+        padding-left: 5px;
+    }
+    
+    .userFeaturedCarrier
+    {
+        width: 225px;
+        border-right: none;
+        border-left:#CCC 1px dotted;
+        padding-left: 5px;
+    }
+    
+    #userShipperTitle, #userCarrierTitle, #userBrokerTitle 
+    {
+        font-size: 36px;
+    }
+    
+    .userFeaturedCopy {
+    	width:200px;
+    }
+    
+    #allAffilLogos
+    {
+	    width:100%;
+    }
+    
+     #allAffilLogos img 
+     {
+         float: none;
+     }

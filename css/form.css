@@ -1,0 +1,132 @@
+
+.mainhome
+{
+  width: 940px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+}
+
+.mainimage
+{
+  max-width:930px !important;
+  margin-top: 10px;
+} 
+
+.mainimageCol
+{
+  padding-left: 5px !important;
+}
+
+.formmain
+{
+  margin-top: 10px;
+  background: rgba(0, 0, 0, 0.10);
+  width:260px;
+  height:200px;
+  border-top-right-radius: 5px;
+  padding: 0 10px 10px 10px !important;
+}
+
+.overlay
+{
+  margin-left:-323px !important;
+  margin-right:58px;
+  opacity:.1;
+}
+
+.mainimageOver
+{
+  width:639px;
+  margin-top:10px;
+}
+
+.mobile
+{
+  width:280px !important;
+  height:240px !important;
+  margin-top: 0px;
+  float:right;
+  padding:25px;
+  white-space: normal !important;
+  text-align: left;
+}
+
+.mobiletext
+{
+  font-size: 12px;
+}
+
+.form-signin-heading
+{
+  margin-top:0px !important;
+}
+
+.form-signin {
+  padding: 13px 10px 10px 10px;
+  margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 5px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+  font-size: 10px;
+  height: 25px;
+}
+.form-signin .form-control:focus {
+  z-index: 3;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-button
+{
+  width: 100px !important;
+  height: 30px !important;
+  font-size: 12px !important;
+  padding:5px !important;
+  float:left;
+}
+
+hr
+{
+  margin-bottom: 5px;
+  border-width: 1px 0px 0px;
+  border-style: solid none none;
+  border-color: #D5D4D4 -moz-use-text-color -moz-use-text-color;
+}
+
+.signupcontainer
+{
+  padding:10px;
+}
+
+.signup
+{
+  background-color: #FAA61A !important;
+  border-color: #E49715 !important;
+}
+
+.signuptext
+{
+  margin-bottom: 8px;
+  margin-top: 5px;
+}

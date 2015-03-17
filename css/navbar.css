@@ -1,0 +1,123 @@
+/* Customize the nav-justified links to fill the entire space of the .navbar */
+.topnav
+{
+  text-align: right;
+  width:98%;
+}
+
+.breadcrumb 
+{
+    padding: 0px !important;
+    margin-bottom: 10px;
+    list-style: outside none none;
+    background-color: transparent !important;
+}
+
+.breadcrumb > li + li::before {
+    padding: 0px 5px;
+    color: #CCC;
+    content: " | ";
+}
+
+#logo
+{
+  margin-bottom: 10px;
+}
+
+.nav-justified {
+  background-color: #557B23 !important;
+  border: 1px solid #73A533 !important;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background-color: #73A533; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#73A533), to(#557B23));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #557B23 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #557B23 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #73A533), to(#557B23));
+  background-image:         linear-gradient(top, #f5f5f5 0%, #557B23 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73A533', endColorstr='#557B23',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #73A533;
+}
+
+.nav > li > a:focus, .nav > li > a:hover
+{
+    background-color: #85BF3C !important;
+}
+
+.active > .mNav
+{
+  background-color: #85BF3C !important;
+}
+
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #73A533;
+    border-left: 1px solid #557B23;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.tab
+{
+  color: #73A533 !important;
+}
+
+.tab:hover
+{
+  color: white !important;
+}
+
+.active > .tab:hover
+{
+  background-color: white !important;
+  color: grey !important;
+}
+
+.active > .tab:link
+{
+  background-color: white !important;
+  color: grey !important;
+}
+
+.active > .tab:visited
+{
+  background-color: white !important;
+  color: grey !important;
+}

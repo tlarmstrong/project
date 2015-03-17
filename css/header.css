@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navitem
+{
+	width:220px !important;
+	text-align: center;
+}
+
+a {
+	font-family:'Arial';
+	color:#73a533;
+}
+
+a img {border:none;}
+
+#bread a {
+	font-family:'Eurostile W01 Extended';
+	}
+
+body{
+	padding:0px;
+	margin:0px;
+	}
+#outterWrapper{
+	padding:0px;
+	width:960px;
+	margin: 0px auto;
+	}
+#innerWrapper{
+	margin:0px auto;
+	}
+#wrapperHeader{
+	margin:0px;
+	padding:0px;
+	}
+#wrapperLogo{
+	float:left;
+	}
+#logo img{
+	width:220px;
+	height:58px;
+	margin-left:10px;
+	}
+#slogonLeft{
+	/* 
+	Need to update the text and css
+	currently is included in img
+	*/
+	}
+#wrapperHeadingRight{
+	width:425px;
+	float:right;
+	}
+#headingTopRight{
+	font-size:15.5pt;
+	font-family:'Trade Gothic W01 Light';
+	float:right;
+	}
+#subHeadingTopRight
+{
+	float:right;
+}
+#easy{
+	font-size:18pt;
+	font-weight:bold;
+	color:#73a533;
+	font-family:'Trade Gothic W01 Bold';
+	}
+#fast{
+	font-size:18pt;
+	font-weight:bold;
+	color:#faa61a;
+	font-family:'Trade Gothic W01 Bold';
+	}
+#efficient{
+	font-size:18pt;
+	font-weight:bold;
+	color:#006595;
+	font-family:'Trade Gothic W01 Bold';
+	}
+#menuHeaderHome{
+	margin-top:30px;
+	height:70px;
+	}
+.clear {
+	clear:both;
+	}
