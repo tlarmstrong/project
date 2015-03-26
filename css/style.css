@@ -79,6 +79,12 @@ h4{
   text-align:center;
 }
 
+.userOpeningPitch
+{
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
 /* USER BLOCK */
 
 .userBlock1
@@ -158,6 +164,169 @@ h4{
     margin:10px;
 }
 
+/* shipmycar */
+
+.partner
+{
+
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+.carTitleIN
+{
+  display: inline-block !important;
+  vertical-align: bottom !important;
+  margin-bottom: 0px !important
+}
+
+.carRow
+{
+  margin-right: auto !important;
+  margin-left: auto !important;
+  padding-left:50px;
+
+  height: 66px;
+  line-height: 66px;
+  text-align: bottom !important;
+}
+
+
+.carBackground
+{
+  background-color: #eee;
+  padding:40px 20px 40px 20px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.carElement1
+{
+  background-color: #eee;
+  border-radius: 5px;
+  margin-right:18px;
+  width:38% !important;
+  padding: 20px !important;
+}
+
+.carElement2
+{
+  background-color: #eee;
+  border-radius: 5px;
+  width:60% !important;
+  padding: 20px 25px 20px 20px !important;
+}
+
+.processRow
+{
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.quoteRow
+{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 20px;
+}
+.quote1
+{
+  border-right: 1px solid #eee;
+}
+
+.trailer
+{
+  width:200px;
+}
+
+.insurance
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.whatExpect
+{
+  padding-right:20px !important;
+  border-right: 1px solid #eee;
+  width: 35% !important;
+}
+
+.startQuote
+{
+  padding-left: 20px !important;
+}
+
+.dropdown
+{
+  margin-right: 10px !important;
+}
+
+.wizard
+{
+  padding: 0px !important;
+}
+
+.pwizard
+{
+  margin-top:20px !important;
+  margin-bottom: 5px !important;
+}
+
+.pwizard2
+{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.buttonWiz, .buttonWizBack
+{
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  width: 100px !important;
+  height: 30px !important;
+  font-size: 12px !important;
+  padding:5px !important;
+  float:left;
+}
+
+.buttonWizBack
+{
+  color: gray !important;
+}
+
+.wizardH2
+{
+  font-family: "Eurostile W01 Extended" !important;
+  font-size: 20pt !important;
+  color: #006595 !important;
+  padding-top:5px !important;
+}
+
+.form-control
+{
+  height:30px !important;
+}
+.disclaimer
+{
+  color: gray;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.thanks
+{
+  margin-top: 15%;
+}
+
+.thanksHeader
+{
+ font-size: 48px !important; 
+}
 /* USER FEEDBACK BLOCK */
 
 .userFeedBackBlock{
@@ -1110,4 +1279,33 @@ img
 #weAreDifferentBlockFeatures
 {
   margin-bottom: 10px;
+}
+
+.sHeader
+{
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+  font-size: 16pt !important;
+  font-family: "Trade Gothic W01 Light" !important;
+  color: #FAA61A;
+}
+
+.account
+{
+  margin-bottom: 10px !important;
+}
+
+.sp
+{
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+}
+.rstyle
+{
+  margin-bottom:20px !important;
+}
+
+.thanks-signup
+{
+  margin-top: 20px;
 }
