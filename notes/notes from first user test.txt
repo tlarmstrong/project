@@ -49,6 +49,179 @@ user 1:
 	general comments:
 		
 		likes how the tabs highlight
+		
 user 2:
 	
+	scenario 1:
+		
+		follows ship my car link
+		
+		is caught by "how it works" area on ship my car page
+		
+		follows get a quote link
+		
+		said "wasn't sure where she was going, but this looks right now"
+		
+		is confused by "will recieve a link to my personal dashboard"
+		thinks that might mean she needs to log in. Isn't sure what it is.
+		
+		follows the wizard
+		
+		goes to prep your car to find info on how to get the car ready
+		says she feels pretty confident in her ability to prep her car with given information
+		
+		still confused about "personal dashboard"
+		
+		goes to carrier page
+		
+		thinks they did a good job showing info on trial period etc
+		
+		is confused by carrier/broker/shipper
+		
+		trusts the site more because of the 24/7 tracking
+		also says it's nice to see "what others are saying"
+		
+		finds info on whether she needs to be present in the faq
+		she feels better and trusts them more after reading this info
+		"they do a good job explaining why I need to do that"
+		
+		can't find trailer type info, heads to shippers page, resources, etc
+		
+		thinks she could find the info in the videos, but isn't sure
+		
+	scenario 2:
+		
+		follows broker button
+		
+		likes how they lay out the information clearly, and what others say
+		
+		follows pricing calculator, reads the info, and opens the calculator
+		
+		likes that it's easy to follow, and feels safe thanks to gps tracking
+		
+		says she feels she could find the information pretty quick
+		
+	scenario 3:
+		
+		follows carrier page
+		
+		likes how they have an algorithm to help lead the trailer
+		
+		follows resources link
+		
+		says "I like all the videos instead of just reading"
+		
+		follows pricing calculator, (thinks it has to do with cost)
+		
+		follows the signup link
+		isn't sure if this is a commitment, or signing up to get more information
+		
+		likes that she can see information on all three user types up front,
+		says that makes her feel like they are open and up front
+		
+	general comments:
+		
+		likes how the colors help draw her attention to important elements
+		
+		says "it's a lot easier to follow than other sites I've used, especially acu's site" (lol)
+		
+		likes that the menu is clear
+
+user 3:
 	
+	scenario 1:
+		
+		follows ship my car link
+		
+		says the "partner" icon makes her trust it more
+		
+		reads the information on how it works
+		
+		likes the legal bond, feels more assured
+		
+		follows the quote link toward the bottom
+		
+		follows wizard
+		
+		goes to quote questions tab
+		
+		goes to faqs
+		
+		finds info on enclosed trailers,
+		and on insurance, says "this sounds pretty trustworthy"
+		
+		finds out she must be there, says it makes sense
+		
+		follows prep my car link, reads the info
+		
+		"I think I trust them, because they seem like they know what they are doing"
+		
+		goes to main carrier page, sees "what others are saying"
+		
+		follows pricing and calculator, sees free trial period
+		
+		follows shipper tab, mulls around for a bit
+		
+		follows broker tab, mulls around again
+		
+	scenario 2:
+		
+		follows broker tab
+		
+		reads the info on the page
+		"looks like it's a lot faster than finding them myself"
+		
+		follows pricing and calculator
+		
+		likes that she can sign up online
+		
+		follows resources page
+		
+		likes all the videos, because she knows nothing about the process
+		"these people look smart"
+		
+		returns to pricing and calculator
+		opens calculator
+		
+		is fairly impressed by amounts she can save
+		
+		"ooh, I don't like being on the phone"
+		
+		"this is cool, I like being able to pick how much I'm gonna save"
+		
+		likes the info on how disputes are avoided with inspections etc.
+		
+		"I think I trust them, (lists conveniences), I save money and it's cheap"
+		
+	scenario 3:
+		
+		reads carrier info on main page
+		
+		follows carrier tab
+		
+		reads the info on the page
+		
+		thinks the algorithm sounds exclusive, likes it
+		
+		likes that theres gps tracking
+		
+		sees what others are saying, not sure if she trusts it
+		
+		likes the calculator,
+		likes photo inspections, thinks they're probably faster
+		
+		goes to resources, sees the videos
+		
+		says the videos look like they would be helpful
+		
+		"they're gonna save me money, sure I'll work with them"
+		
+		How do I get Started area, clicks on request a specialist
+		"I just clicked here cuz it said to"
+		
+		"Oh, and I could sign up here, ok"
+		
+	general notes
+		
+		likes that mobile exists and she could do things from her phone
+		
