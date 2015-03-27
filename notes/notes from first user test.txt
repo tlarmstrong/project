@@ -1,0 +1,54 @@
+user 1:
+
+	scenario 1:
+		
+		tries to sign up first
+		Has no idea what terms mean, so left it on carrier (default)
+
+		went to carrier page said likes font
+
+		went to resources, says thinks the green font color looks like links
+
+		looking at carrier videos
+
+		is stuck thinking he is a carrier,,
+
+		goes to ship my car
+		reads (at least skims) the page, follows get a quote
+
+		likes that you can choose a deliver-by date
+
+		::issue with zip code looking like date entry on step 4
+
+		says he likes all the information provided about quotes, prep, etc.
+
+		found insurance information with little effort
+		
+	scenario 2:
+		
+		goes to broker resources, looks through list of videos
+		
+		says it looks like a training form
+		
+		goes to pricing and calculator, reads introductory pricing info
+		
+		opens calculator, says buttons need to be bigger
+		
+		follows calculator wizard, guessing numbers to input
+		
+		gets to the end, dismisses the window
+		
+	scenario 3:
+		
+		goes to carrier page, and resources
+		
+		looks through the video list, says it looks helpful
+		
+		says he thinks the next step would be to sign up for the service
+	
+	general comments:
+		
+		likes how the tabs highlight
+user 2:
+	
+	
