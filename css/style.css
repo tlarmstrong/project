@@ -55,20 +55,20 @@ body
 }
 
 h1{
-  font-size:20pt !important; 
-  font-family:'Eurostile W01 Bold' !important;
-  margin:0px !important;
+  font-size:20pt; 
+  font-family:'Eurostile W01 Bold';
+  margin:0px;
 
 }
 
 h2{
-  font-family:'Trade Gothic W01 Light' !important;
-  font-size:16pt !important;
-  margin:0px !important;
+  font-family:'Trade Gothic W01 Light';
+  font-size:16pt;
+  margin:0px;
 }
 h3{
-  font-family:'Trade Gothic W01 Light' !important;
-  font-size:16pt !important;
+  font-family:'Trade Gothic W01 Light';
+  font-size:16pt;
   
 }
 
