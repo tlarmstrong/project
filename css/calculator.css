@@ -69,13 +69,13 @@
 			}
 			
 				#calc_header_bar > h1 {
-					font-family:'Eurostile W01 Bold';
-					font-size: 28px;
+					font-family:'Eurostile W01 Bold' !important;
+					font-size: 28px !important;
 					text-transform: uppercase;
 					font-weight: normal;
 					color: white;
-					margin: 9px 0px 0px 35px;
-					padding: 0px;
+					margin: 9px 0px 0px 35px !important;
+					padding: 0px !important;
 				}
 				
 				#calc_header_bar > img {
@@ -103,7 +103,7 @@
 			}
 		
 				#calc_content > div.calc_features > h2 {
-					margin: 0px 0px 14px;
+					margin: 0px 0px 14px !important;
 				}
 				
 				#calc_content > div.calc_features > h2.calc_intro_header {
@@ -111,7 +111,7 @@
 				}
 				
 				#calc_content > div.calc_features > p {
-					margin: 10px 0px;
+					margin: 10px 0px !important;
 				}
 				
 				#calc_content > div.calc_features > p.calc_spacer {
@@ -267,7 +267,7 @@
 		
 		#calc_bottom_sep {
 			position: absolute;
-			bottom: 30px;	
+			/*bottom: 30px;	*/
 			left: 20px;
 		}
 		

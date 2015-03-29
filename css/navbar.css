@@ -1,4 +1,21 @@
 /* Customize the nav-justified links to fill the entire space of the .navbar */
+
+
+.nav-justified > li > a {
+    border-bottom: 0px !important;
+}
+
+.navitem
+{
+  width:220px !important;
+  text-align: center;
+}
+
+.nav-justified > li:last-child > a {
+    border-bottom: 0px !important;
+    border-radius: 0px 0px 5px 5px;
+}
+
 .topnav
 {
   text-align: right;
@@ -36,14 +53,7 @@
   font-weight: bold;
   color: #fff;
   text-align: center;
-  background-color: #73A533; /* Old browsers */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#73A533), to(#557B23));
-  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #557B23 100%);
-  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #557B23 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #73A533), to(#557B23));
-  background-image:         linear-gradient(top, #f5f5f5 0%, #557B23 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73A533', endColorstr='#557B23',GradientType=0 ); /* IE6-9 */
-  background-repeat: repeat-x; /* Repeat the gradient */
+  background-color: #73A533; 
   border-bottom: 1px solid #73A533;
 }
 

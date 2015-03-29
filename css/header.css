@@ -1,12 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.navitem
-{
-	width:220px !important;
-	text-align: center;
-}
-
 a {
 	font-family:'Arial';
 	color:#73a533;

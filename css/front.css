@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.container {
+    width: 970px !important;
+}
+
 #slideShowHome{
 	margin-top:20px;
 	height:280px;
