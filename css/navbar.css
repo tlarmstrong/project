@@ -1,5 +1,8 @@
 /* Customize the nav-justified links to fill the entire space of the .navbar */
-
+.navCat 
+{
+    margin: 0px 0px 0px;
+}
 
 .nav-justified > li > a {
     border-bottom: 0px !important;
@@ -11,29 +14,53 @@
   text-align: center;
 }
 
+/*
 .nav-justified > li:last-child > a {
-    border-bottom: 0px !important;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0 0 5px 5px;
+    background-color: #97C306 !important;
+    border: 5px solid #97C306 !important;
+}
+*/
+
+.nav-justified > li:last-child > a {
+    border-radius: 0 0 5px 5px;
+    background-color: #97C306 !important;
+    border: 1px solid #97C306 !important;
+
 }
 
+.nav-justified > li:last-child > a:focus, .nav-justified > li:last-child > a:hover,
+.nav-justified > li.active:last-child > a
+{
+    background-color: #F8B908 !important;
+    /*border-left: 1px solid #EFB81B !important;
+    border-top: 1px solid #EFB81B !important;
+    border-bottom: 1px solid #EFB81B !important;*/
+    border-top: 5px solid #F8B908 !important;
+    border-bottom: 5px solid #F8B908 !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left: 1px solid #BC8D0C !important;
+}
+
+/*
+.nav > .active > .last
+{
+    background-color: #FEC113 !important;
+    border-top: 5px solid #FEC113 !important;
+    border-bottom: 5px solid #FEC113 !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+    border-left: 1px solid #BA8F13 !important;
+
+    padding-right: 25px !important;
+    padding-left: 26px !important;
+}
+*/
 .topnav
 {
   text-align: right;
   width:98%;
-}
-
-.breadcrumb 
-{
-    padding: 0px !important;
-    margin-bottom: 10px;
-    list-style: outside none none;
-    background-color: transparent !important;
-}
-
-.breadcrumb > li + li::before {
-    padding: 0px 5px;
-    color: #CCC;
-    content: " | ";
 }
 
 #logo
@@ -41,54 +68,90 @@
   margin-bottom: 10px;
 }
 
-.nav-justified {
-  background-color: #557B23 !important;
-  border: 1px solid #73A533 !important;
+/*.nav-justified {
+  background-color: #73A533 !important;
+  border: 1px solid #68952E !important;
   border-radius: 5px;
-}
-.nav-justified > li > a {
+}*/
+.nav-justified > li > a
+{
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-bottom: 0;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
   font-weight: bold;
   color: #fff;
   text-align: center;
-  background-color: #73A533; 
-  border-bottom: 1px solid #73A533;
+  background-color: #7AA533; 
+  border: 1px solid #76A42A !important;
 }
 
-.nav > li > a:focus, .nav > li > a:hover
+.nav-justified > li > a:focus, .nav-justified > li > a:hover,
+.nav-justified > li.active > a
 {
-    background-color: #85BF3C !important;
+    background-color: #F8B908 !important;
+    border-top: 5px solid #F8B908 !important;
+    border-bottom: 5px solid #F8B908 !important;
+    /*outline: 1px solid #EFB81B;*/
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+    /*border-right: 1px solid #BA8F13 !important;
+    border-left: 1px solid #BA8F13 !important;*/
+    padding-right: .97% !important;
+    padding-left: .97% !important;
+    border-left: #BC8D0C !important;
 }
 
+.nav-justified > li:last-child > a:focus > p , .nav-justified > li:last-child > a:hover > p,
+.nav-justified > li.active:last-child > a > p
+{
+  padding-right: 25px !important;
+  padding-left: 26px !important;
+
+}
+
+.nav-justified > li:first-child > a:focus , .nav-justified > li:first-child > a:hover,
+.nav-justified > li.active:first-child > a
+{
+  padding-right: 3px !important;
+  padding-left: 3px !important;
+}
+
+/*
 .active > .mNav
 {
-  background-color: #85BF3C !important;
+    background-color: #FEC113 !important;
+    border-top: 5px solid #FEC113 !important;
+    border-bottom: 5px solid #FEC113 !important;
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+    border-right: 1px solid #BA8F13 !important;
+    border-left: 1px solid #BA8F13 !important;
+    padding-right: 1% !important;
+    padding-left: 1% !important;
 }
-
+*/
 .nav-justified > li:first-child > a {
   border-radius: 5px 5px 0 0;
 }
-.nav-justified > li:last-child > a {
-  border-bottom: 0;
-  border-radius: 0 0 5px 5px;
-}
+
 
 @media (min-width: 768px) {
   .nav-justified {
-    max-height: 52px;
+    /*max-height: 52px;*/
   }
   .nav-justified > li > a {
-    border-right: 1px solid #73A533;
-    border-left: 1px solid #557B23;
+    border-right: 1px solid #5A7B23 !important;
+    /*border-left: 1px solid #5A7B23 !important;*/
+    
   }
   .nav-justified > li:first-child > a {
-    border-left: 0;
+    border-left: 0 !important;
     border-radius: 5px 0 0 5px;
   }
   .nav-justified > li:last-child > a {
-    border-right: 0;
+    border-right: 0px !important;
+    /*border-left: 1px solid #84AB05 !important;*/
     border-radius: 0 5px 5px 0;
   }
 }
@@ -104,30 +167,134 @@
   }
 }
 
+/* change nav text on hover and when active */
+
+/* shippers */
+.nav-justified li a p.new-shippers span{
+  position: relative;
+}
+.nav-justified li a:hover p.new-shippers span{
+  display: none;
+}
+.nav-justified li a:hover p.new-shippers:after{
+  content: 'Professional Shippers';
+}
+.active .mNav .new-shippers span{
+  display: none;
+}
+.active > .mNav > .new-shippers:after
+{
+  content: 'Professional Shippers';
+}
+
+/* brokers */
+.nav-justified li a p.new-brokers span{
+  position: relative;
+}
+.nav-justified li a:hover p.new-brokers span{
+  display: none;
+}
+.nav-justified li a:hover p.new-brokers:after{
+  content: 'Professional Brokers';
+}
+.active .mNav .new-brokers span{
+  display: none;
+}
+.active .mNav .new-brokers:after
+{
+  content: 'Professional Brokers';
+}
+
+/* carriers */
+.nav-justified li a p.new-carriers span{
+  position: relative;
+}
+.nav-justified li a:hover p.new-carriers span{
+  display: none;
+}
+.nav-justified li a:hover p.new-carriers:after{
+  content: 'Professional Carriers';
+}
+.active .mNav .new-carriers span{
+  display: none;
+}
+.active .mNav .new-carriers:after
+{
+  content: 'Professional Carriers';
+}
+
+/* car owners */
+.nav-justified li a p.new-myCar span{
+  position: relative;
+}
+.nav-justified li a:hover p.new-myCar span{
+  display: none;
+}
+.nav-justified li a:hover p.new-myCar:after{
+  content: 'Ship My Car';
+}
+.active .mNav .new-myCar span{
+  display: none;
+}
+.active .mNav .new-myCar:after{
+  content: 'Ship My Car';
+}
+
+/* breadcrumbs */
+.breadcrumb 
+{
+    padding: 0px !important;
+    margin-bottom: 10px;
+    list-style: outside none none;
+    background-color: transparent !important;
+}
+
+.breadcrumb > li + li::before {
+    padding: 0px 5px;
+    color: #CCC;
+    content: " | ";
+}
+
 .tab
 {
-  color: #73A533 !important;
+  color: grey !important;
+  background-color: #ECEDEC !important;
+  border-top: 1px solid #DDD !important;
+  border-right: 1px solid #DDD !important;
+  border-left: 1px solid #DDD !important;
+  border-bottom: 0px !important;
 }
 
 .tab:hover
 {
+  background-color: #C3C2C2 !important;
   color: white !important;
+  border-bottom: 0px !important;
+  border-top: 1px solid #DDD !important;
+  border-right: 1px solid #DDD !important;
+  border-left: 1px solid #DDD !important;
 }
 
-.active > .tab:hover
+.active > .tab:hover, li:last-child.active > .tab:hover 
 {
   background-color: white !important;
   color: grey !important;
+  border-bottom: 0px !important;
+  border-top: 1px solid #DDD !important;
+  border-right: 1px solid #DDD !important;
+  border-left: 1px solid #DDD !important;
 }
 
 .active > .tab:link
 {
   background-color: white !important;
   color: grey !important;
+  border-bottom: 0px !important;
 }
 
 .active > .tab:visited
 {
   background-color: white !important;
   color: grey !important;
+  border-bottom: 0px !important;
 }

@@ -1,0 +1,155 @@
+/* Customize the nav-justified links to fill the entire space of the .navbar */
+
+
+.nav-justified > li > a {
+    border-bottom: 0px !important;
+}
+
+.navitem
+{
+  width:220px !important;
+  text-align: center;
+}
+
+.nav-justified > li:last-child > a {
+    border-radius: 0 0 5px 5px;
+    background-color: #97C306 !important;
+    border: 5px solid #97C306 !important;
+}
+
+.nav > li:last-child > a:focus, .nav > li:last-child > a:hover
+{
+    background-color: #FCC320 !important;
+    border-left: 1px solid #EFB81B !important;
+    border-top: 1px solid #EFB81B !important;
+    border-bottom: 1px solid #EFB81B !important;
+}
+
+.nav > .active > .last
+{
+    background-color: #EFB81B !important;
+    border-left: 1px solid #CC9C13 !important;
+    border-top: 1px solid #CC9C13 !important;
+    border-bottom: 1px solid #CC9C13 !important;
+}
+
+.topnav
+{
+  text-align: right;
+  width:98%;
+}
+
+#logo
+{
+  margin-bottom: 10px;
+}
+
+/*.nav-justified {
+  background-color: #73A533 !important;
+  border: 1px solid #68952E !important;
+  border-radius: 5px;
+}*/
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px !important;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background-color: #7AA533; 
+  border: 5px solid #76A42A !important;
+}
+
+.nav > li > a:focus, .nav > li > a:hover
+{
+    background-color: #FCC320 !important;
+    border: 1px solid #EFB81B !important;
+}
+
+.active > .mNav
+{
+    background-color: #EFB81B !important;
+    border: 1px solid #CC9C13 !important;
+}
+
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+
+
+@media (min-width: 768px) {
+  .nav-justified {
+    /*max-height: 52px;*/
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #5A7B23 !important;
+    border-left: 1px solid #5A7B23 !important;
+    
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0px !important;
+    border-left: 1px solid #84AB05 !important;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.breadcrumb 
+{
+    padding: 0px !important;
+    margin-bottom: 10px;
+    list-style: outside none none;
+    background-color: transparent !important;
+}
+
+.breadcrumb > li + li::before {
+    padding: 0px 5px;
+    color: #CCC;
+    content: " | ";
+}
+
+.tab
+{
+  color: #73A533 !important;
+}
+
+.tab:hover
+{
+  color: white !important;
+}
+
+.active > .tab:hover, li:last-child.active > .tab:hover 
+{
+  background-color: white !important;
+  color: grey !important;
+  border-bottom: 0px !important;
+  border-top: 1px solid #DDD !important;
+  border-right: 1px solid #DDD !important;
+  border-left: 1px solid #DDD !important;
+}
+
+.active > .tab:link
+{
+  background-color: white !important;
+  color: grey !important;
+}
+
+.active > .tab:visited
+{
+  background-color: white !important;
+  color: grey !important;
+}
