@@ -1,0 +1,170 @@
+user 1:
+	scenario 1:
+		scans the front page, click shippers, goes back
+		
+		returns to shippers tab, comments on how the tabs change (not negative or positive)
+		
+		scans shippers page
+		
+		returns to main page
+		
+		tries to watch video 
+		
+		returns to shippers page, watches video there
+		
+		(he has observerd the ship my car button, hover and all, but not followed it)
+		
+		watched video, doesn't know if it helped him
+		
+		returns to main page, goes to carriers..
+		
+		watches video there (seems drawn to videos)
+		
+		follows carrier pricing calc link.
+		
+		goes through the calculator
+		
+		doesn't tell him the cost
+		
+		move it along...
+		
+	scenario 2:
+		goes to broker tab, finds the calculator
+		
+		doesn'tuse it, returns to the main broker page
+		
+		looks at the features, decides he would trust them
+		
+	scenario 3:
+		goes to carrier page,
+		scans each tab
+		
+		views calculator, says it seems helpful
+		
+		would follow sign up
+		
+		follows sign up.
+		
+		enters the wrong user type
+		
+		says it seems easy
+		
+	notes:
+		believes it's not clear where to go to ship the car, but much more clear for brokers
+		says the signup is small, could be hard to notice
+		says the changing text on the buttons throws him off
+		
+		says it might be helpful to include "car owner" along the bottom of the main page
+		with the other user types
+		
+user 2:
+	scenario 1:
+		follows car owner link (yay)
+		
+		scans the first page
+		
+		"looks legit"
+		
+		goes to quote questions
+		
+		finds information, looks helpful
+		
+		goes to get a quote
+		
+		finds out she can choose trailer type
+		
+		follows prep my car, finds info on what she needs
+		
+		looks through tabs for isurance information
+		
+		finds it in the faq tab
+		
+	scenario 2:
+		goes to broker page,
+		
+		sees calc, "that's cool"
+		
+		goes to resources tab
+		
+		goes to pricing and calculator, sees the fee
+		says "looks like I can save a lot"
+		
+	scenario 3:
+		follows carrier tab
+		
+		scans the page
+		
+		follows the resources page
+		
+		goes to calculator for "next step"
+		
+		then, goes back to main carrier page,
+		says "I would use the 'How Do I Get Started?' box"
+		
+	notes:
+		likes that everything is laid out the same on every tab
+		
+user 3?(!):
+	scenario 1:
+		scans main page
+		
+		follows car owners/ship my car
+		
+		scans main car owner page
+		
+		follows get a quote
+		
+		enters some info, follows the wizard
+		
+		follows prep your car, scans
+		"that is really good to know"
+		
+		follows quote questions
+		is stuck here for a while searching for insurance info
+		
+		follows faqs
+		
+		returns to quote questions
+		
+		returns to faqs
+		finds insurance info
+		
+		said would trust
+		
+		can answer all questions
+		
+	scenario 2:
+		follows broker tab
+		
+		scans main broker page
+		
+		looks at the calculator
+		
+		"this is a lot" (referring to amount of content on the site)
+		
+		goes to resources tab
+		
+		follows the calculator link to find savings info
+		
+		follows the wizard
+		
+		finishes wizard
+		
+		Thinks it should give a grand total
+		
+	scenario 3:
+		follows carrier tab
+		
+		follows resources tab
+		
+		believes they probably explain the process
+		
+		believes they would be very helpful
+		
+		follows "sign up for free trial" link
+		
+		signs up
+		
+	notes:
+		a regular user (car owner) might be confused by all the professional parts
+		comments how car owner page says "the shipper-that's you!"
