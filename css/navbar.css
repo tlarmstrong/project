@@ -167,7 +167,10 @@
   }
 }
 
-/* change nav text on hover and when active */
+/* 
+change nav text on hover and when active 
+http://jsfiddle.net/fLMSd/14/
+*/
 
 /* shippers */
 .nav-justified li a p.new-shippers span{
