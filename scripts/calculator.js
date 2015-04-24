@@ -66,7 +66,7 @@ function calc_listeners() {
 		var max_sub_section = $("#calc_nav div.calc_nav_content:nth-child(" + (section * 2) + ") h3").length - 1;
 		
 		if (sub_section == max_sub_section) {
-			//$("#calc_nav_" + section + "_1").click();
+			$("img#calc_close_button").click();
 		}
 		else {
 			$("#calc_nav_" + section + "_" + (parseInt(sub_section) + 1)).click();
@@ -558,42 +558,6 @@ function prepend_calc_html(section) {
                 </div> \
                 <!-- END CARRIER SECTION --> \
                  \
-               <div id="calc_audio"> \
-                    <div id="calc_audio_text"><!--Some descriptive text explaining the Audio segment--></div> \
-                     \
-                    <img id="calc_audio_sep" src="images/calculator/calc_audio_sep.png" /> \
-                     \
-                    <div id="calc_audio_controls"> \
-                        <div id="jquery_jplayer_1" class="jp-jplayer"></div> \
-                          <div id="jp_container_1" class="jp-audio"> \
-                            <div class="jp-type-single"> \
-                              <div class="jp-gui jp-interface"> \
-                                <div class="jp-progress"> \
-                                  <div class="jp-seek-bar"> \
-                                    <div class="jp-play-bar"></div> \
-                                  </div> \
-                                </div> \
-                                <div class="jp-volume-bar"> \
-                                  <div class="jp-volume-bar-value"></div> \
-                                </div> \
-                                <div class="jp-time-holder"> \
-                                  <div class="jp-current-time"></div> \
-                                  <div class="jp-duration"></div> \
-                                  <ul class="jp-toggles"> \
-                                    <!--<li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li> \
-                                    <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>--> \
-                                  </ul> \
-                                </div> \
-                              </div> \
-                              <!--<div class="jp-title"> \
-                                <ul> \
-                                  <li>Bubble</li> \
-                                </ul> \
-                              </div>--> \
-                            </div> \
-                          </div> \
-	                </div> \
-                </div> \
             </div> \
              \
             <div id="calc_nav"> \
@@ -636,7 +600,7 @@ function prepend_calc_html(section) {
             <img id="calc_bottom_sep" src="images/calculator/calc_bottom_sep.png" /> \
              \
             <div id="calc_bottom"> \
-            	<img id="calc_back" src="images/calculator/calc_back_button_disabled.png" /> <img id="calc_clear" src="images/calculator/calc_clear_button.png" /> <img id="calc_next" src="images/calculator/calc_next_button.png" /> \
+            	<img id="calc_back" style="height:30px" src="images/calculator/calc_back_button_disabled.png" /> <img id="calc_clear" style="height:30px" src="images/calculator/calc_clear_button.png" /> <img id="calc_next" style="height:30px" src="images/calculator/calc_next_button.png" /> \
             </div> \
         </div> \
     </div> \
