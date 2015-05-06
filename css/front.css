@@ -257,14 +257,14 @@ span.error
 
     #wrapperUserTypes
     {
-    	margin-left: 20px;
+    	/*margin-left: 20px;*/
     	margin-top: 10px;
         width:100%;
 	}
 
     .userFeatured 
     {
-        width: 300px;
+        width: 190px;
         border-right: none;
         border-left:#CCC 1px dotted;
         padding-left: 5px;
@@ -272,7 +272,15 @@ span.error
     
     .userFeaturedCarrier
     {
-        width: 225px;
+        width: 190px;
+        border-right: none;
+        border-left:#CCC 1px dotted;
+        padding-left: 5px;
+    }
+
+    .userFeaturedCarOwner
+    {
+        width: 190px;
         border-right: none;
         border-left:#CCC 1px dotted;
         padding-left: 5px;
